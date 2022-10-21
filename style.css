@@ -37,6 +37,12 @@
   color: #fff;
 }
 
+@media(max-width:1560px){
+  .hero{
+    height: 70vh;
+  }
+}
+
 .container {
   display: flex;
   gap: 50px;
@@ -44,6 +50,25 @@
   top: 50%;
   left: 50%;
   transform: translate(-30%, -50%);
+}
+
+@media(max-width:1560px){
+  .container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-30%, -50%);
+  }
+}
+
+@media(max-width:1200px){
+  .container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-30%, -50%);
+    flex-wrap: wrap;
+  }
 }
 
 .hechizar {
@@ -77,6 +102,13 @@
   font-weight: bold;
   width: 280px;
   margin-top: 30px;
+}
+
+@media(max-width:1200px){
+  .experiencia{
+    margin-top: -30px;
+    margin-left: 5%;
+  }
 }
 
 .experiencia p {
@@ -125,6 +157,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .brisa > .mur1 {
@@ -137,6 +170,12 @@
   margin-top: 150px;
   width: 150px;
   height: 150px;
+}
+
+@media(max-width:1200px){
+  .brisa > .mur2{
+    display: none;
+  }
 }
 
 .hallo {
@@ -170,6 +209,12 @@
   margin-bottom: 50px;
 }
 
+@media(max-width:1000px){
+  .piratas{
+    flex-direction: column;
+  }
+}
+
 .contenedor {
   width: 100%;
 }
@@ -181,6 +226,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+@media(max-width:1000px){
+  .texto{
+    margin-top: 20px;
+    width: 700px;
+  }
 }
 
 .texto ul {
@@ -204,7 +256,15 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 55vh;
+  height: 50vh;
+}
+
+@media(max-width:1560px){
+  .gallery-wrap {
+    display: flex;
+    height: 45vh;
+  }
+  
 }
 
 .item {
@@ -284,6 +344,7 @@
   justify-content: center;
   align-items: center;
   gap: 40px;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -340,6 +401,7 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   padding: 50px 0px;
+  flex-wrap: wrap;
 }
 
 .hmur {
@@ -351,12 +413,23 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+}
+
+.centro .video{
+  margin: 50px 0px;
 }
 
 .sombrero {
   width: 110px;
   height: 110px;
   margin-top: 100px;
+}
+
+@media(max-width:1000px){
+  .sombrero{
+    display: none;
+  }
 }
 
 .blanco-v {
@@ -393,6 +466,7 @@ a:hover {
   align-items: center;
   margin: 100px 0px;
   gap: 50px;
+  flex-wrap: wrap;
 }
 
 .final .logos img {
@@ -423,12 +497,19 @@ footer{
 }
 
 .footer{
-  
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 100px;
+  flex-wrap: wrap;
+}
+
+@media(max-width:1200px){
+  .footer{
+    flex-direction: column;
+    gap: 50px;
+  }
 }
 
 .footer div{
@@ -477,4 +558,9 @@ footer{
   border-radius: 10px;
   font-size: 18px;
   font-weight: 800;
+}
+
+@media(max-width:600px){
+  
+
 }
