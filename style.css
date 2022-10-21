@@ -170,11 +170,11 @@
   margin-bottom: 50px;
 }
 
-.contenedor{
+.contenedor {
   width: 100%;
 }
 
-.texto{
+.texto {
   font-size: 22px;
   width: 1000px;
   padding: 10px 10px 10px 50px;
@@ -183,11 +183,11 @@
   justify-content: center;
 }
 
-.texto ul{
+.texto ul {
   padding: 20px;
 }
 
-.texto a{
+.texto a {
   color: #fff;
   padding: 10px 30px;
   font-size: 14px;
@@ -259,7 +259,9 @@
   flex: 6;
 }
 
-.blanca{
+/* Blanca */
+
+.blanca {
   text-align: center;
   display: flex;
   justify-content: center;
@@ -271,18 +273,18 @@
   background-repeat: no-repeat;
 }
 
-.blanca h3{
+.blanca h3 {
   margin-top: 100px;
+  font-size: 30px;
 }
 
-.tarjetas{
+.tarjetas {
   margin: 100px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 40px;
 }
-
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -294,31 +296,30 @@
   background-color: #fff;
 }
 
-.card h1{
-  color: #322D63;
+.card h1 {
+  color: #322d63;
   font-weight: 800;
   margin-top: 25px;
 }
 
-.card img{
+.card img {
   width: 100%;
   height: 200px;
   border-radius: 15px;
 }
 
 .card .title {
-  color: #322D63;
+  color: #322d63;
   font-size: 18px;
   line-height: 25px;
   margin: 20px 0px;
 }
 
-
-center a{
+center a {
   color: #fff;
-  padding: 10px 30px;
+  padding: 15px 30px;
   font-size: 14px;
-  background: linear-gradient(90deg, #015280 0.01%, #322D63 71.35%);
+  background: linear-gradient(90deg, #015280 0.01%, #322d63 71.35%);
   border-radius: 10px;
   width: 185px;
 }
@@ -327,7 +328,73 @@ center a{
   font-size: 20px;
 }
 
-a:hover{
+a:hover {
   transform: scale(1.1);
-  transition:  0.8s ease;
+  transition: 0.8s ease;
+}
+
+/* Blanco2 */
+
+.blanco2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0px;
+}
+
+.hmur {
+  width: 110px;
+  height: 110px;
+}
+
+.centro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sombrero{
+  width: 110px;
+  height: 110px;
+  margin-top: 100px;
+}
+
+.blanco-v{
+  width: 600px;
+}
+
+.blanco-v h2{
+  font-size: 30px;
+  padding: 20px 50px;
+}
+
+.blanco-v p{
+  font-size: 25px;
+  line-height: 30px;
+  padding: 0px 50px;
+}
+
+.final{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.final h3 {
+  margin: 100px 0px;
+  font-size: 30px;
+}
+
+.final .logos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0px;
+  gap: 50px;
+}
+
+.final .logos img{
+  width: 250px;
 }
