@@ -3,8 +3,15 @@
   src: url("fuente/Renner_\ 300\ Light.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Scaryous";
+  src: url("fuente/Scaryous.ttf");
+}
+
 :root {
   --medio: Renner;
+  --Scar: Scaryous;
+  --azul: #0073ba;
 }
 
 * {
@@ -14,6 +21,8 @@
   text-decoration: none;
   font-family: var(--medio);
 }
+
+/* Cabecera */
 
 .hero {
   background-image: url(img/Bruja.jpg);
@@ -80,7 +89,7 @@
 }
 
 .experiencia a {
-  position:absolute;
+  position: absolute;
   color: #fff;
   padding: 10px 30px;
   font-size: 14px;
@@ -92,5 +101,151 @@
 }
 
 .experiencia i {
-    font-size: 20px;
+  font-size: 20px;
+}
+
+/* Azul */
+
+.azul {
+  background-color: var(--azul);
+  background-image: url(img/olas.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.brisa {
+  color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.brisa > .mur1 {
+  margin-top: 120px;
+  width: 110px;
+  height: 110px;
+}
+
+.brisa > .mur2 {
+  margin-top: 150px;
+  width: 150px;
+  height: 150px;
+}
+
+.hallo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.hallo img {
+  width: 500px;
+  margin-top: 20px;
+}
+
+.hallo span {
+  font-size: 35px;
+  font-family: var(--Scar);
+}
+
+.piratas {
+  width: 70%;
+  display: flex;
+  color: #fff;
+  font-size: 25px;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.contenedor{
+  width: 100%;
+}
+
+.texto{
+  font-size: 22px;
+  width: 1000px;
+  padding: 10px 10px 10px 50px;
+}
+
+.texto ul{
+  padding: 20px;
+}
+
+.texto a{
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 14px;
+  background: linear-gradient(90deg, #93b95c 0.01%, #1b917a 71.35%);
+  border-radius: 10px;
+}
+
+.gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 55vh;
+}
+
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+}
+
+.item-1 {
+  background-image: url("https://visitsantamarta.com/halloween/wp-content/uploads/2022/10/gale1.jpg");
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.item-1:hover {
+  flex: 6;
+}
+
+.item-2 {
+  background-image: url("https://visitsantamarta.com/halloween/wp-content/uploads/2022/10/gale2.jpg");
+  border-radius: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.item-2:hover {
+  flex: 6;
+}
+
+.item-3 {
+  background-image: url("https://visitsantamarta.com/halloween/wp-content/uploads/2022/10/gale3.jpg");
+  border-radius: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.item-3:hover {
+  flex: 6;
+}
+
+.item-4 {
+  background-image: url("https://visitsantamarta.com/halloween/wp-content/uploads/2022/10/gale4.jpg");
+  border-radius: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.item-4:hover {
+  flex: 6;
 }
