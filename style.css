@@ -187,7 +187,6 @@
   font-size: 30px;
   padding: 50px;
   margin-top: 50px;
-  margin-right: -50px;
 }
 
 .hallo img {
@@ -418,6 +417,7 @@ a:hover {
 
 .centro .video{
   margin: 50px 0px;
+  width: 500px;
 }
 
 .sombrero {
@@ -501,7 +501,7 @@ footer{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 100px;
+  padding: 50px;
   flex-wrap: wrap;
 }
 
@@ -513,9 +513,9 @@ footer{
 }
 
 .footer div{
-  width: 400px;
+  width: 350px;
 }
-
+.footer
 .footer .contactanos{
   padding: 10px;
 }
@@ -523,7 +523,7 @@ footer{
 .footer div a{
   color: #fff;
   padding: 15px 30px;
-  font-size: 20px;
+  font-size: 18px;
   background: linear-gradient(90deg, #93b95c 0.01%, #1b917a 71.35%);
   border-radius: 10px;
   width: 185px;
@@ -561,6 +561,62 @@ footer{
 }
 
 @media(max-width:600px){
-  
+  .hechizo{
+    width: 300px;
+  }
+
+  .visit{
+    width: 200px;
+  }
+
+  .container{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .experiencia{
+    font-size: 20px;
+    padding: 10px;
+    width: 300px;
+  }
+
+  .hallo img{
+    width: 300px;
+  }
+
+  .brisa > .mur1{
+    display: none;
+  }
+
+  .texto{
+    width: 350px;
+    padding: 0;
+  }
+
+  .centro .video{
+    width: 400px;
+  }
+
+  .blanco-v {
+    width: 400px;
+  }
+
+  .blanca h3{
+    font: 20px;
+  }
+
+  .final h3{
+    font-size: 20px;
+  }
+
+  .hmur{
+    display: none;
+  }
+
+  .hero{
+    background-image: url(img/brujamobile.jpg);
+  }
 
 }
